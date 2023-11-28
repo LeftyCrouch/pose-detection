@@ -97,7 +97,6 @@ fun Camera() {
                 controller.bindToLifecycle(lifecycleOwner)
                 setBackgroundColor(BLACK)
                 implementationMode = PreviewView.ImplementationMode.COMPATIBLE
-                scaleType = PreviewView.ScaleType.FILL_START
             }
         },
         modifier = Modifier
